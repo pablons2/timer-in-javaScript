@@ -1,41 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Caveat', cursive;
     font-size: x-large;
-    size: 60px;    
+    size: 60px;
 }
-h1{
+
+h1 {
     size: 5em;
     text-align: center;
 }
-.timer{
+
+.timer {
     width: 100%;
     display: flex;
     text-align: center;
-    
+
     align-items: center;
     justify-content: center;
-    
+
 }
-.centro{
+
+.centro {
     width: 2%;
-    align-items: center;
+
     size: 5em;
     font-weight: bold;
     padding: 20px;
 }
-.botoes{
+
+.botoes {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-span{
+span {
     font-size: small;
 }
 
 #btnPause,
-#btnResume{
+#btnResume {
     display: none;
 }
